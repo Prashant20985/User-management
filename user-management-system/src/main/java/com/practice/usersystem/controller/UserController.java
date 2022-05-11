@@ -12,7 +12,7 @@ import java.util.Map;
 
 @CrossOrigin(value = "http://localhost:3000")
 @RestController
-@RequestMapping("/api/vi/")
+@RequestMapping("/api/v1/")
 public class UserController {
 
     @Autowired

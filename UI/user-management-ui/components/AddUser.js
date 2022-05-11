@@ -4,14 +4,14 @@ import { Fragment, useState } from 'react'
 import UsersList from './UsersList'
 
 const AddUser = () => {
-    const USER_API_BASE_URL = "http://localhost:8080/api/vi/user"
+    const USER_API_BASE_URL = "http://localhost:8080/api/v1/user"
     const [isOpen, setIsOpen] = useState(false);
     const [user, setUser] = useState({
         id:"",
         firstName:"",
         lastName:"",
         emailId:"",
-    })
+    });
 
     const [responsUser, setResponsUser] = useState({
         id:"",
